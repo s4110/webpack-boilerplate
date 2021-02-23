@@ -1,0 +1,28 @@
+body {
+  height: 100vh;
+  padding: 32px;
+  background-image: url("../images/background.jpg");
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.header-wrapper {
+  text-align: center;
+  &__title {
+    color: #FFFFFF;
+    filter: $shadow;
+  }
+}
+
+.images-wrapper {
+  margin: 32px 0;
+  display: flex;
+  justify-content: center;
+  &__item {
+    filter: $shadow;
+    margin-right: 32px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
